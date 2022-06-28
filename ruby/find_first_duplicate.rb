@@ -1,5 +1,6 @@
 def find_first_duplicate(arr)
   # type your code in here
+  arr
 end
 
 if __FILE__ == $PROGRAM_NAME
