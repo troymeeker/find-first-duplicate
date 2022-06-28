@@ -1,5 +1,16 @@
 function findFirstDuplicate(arr) {
   // type your code here
+  let memory = {}; 
+  for(let i = 0; i < arr.length; i++){
+    if(memory[arr[i]] === undefined){
+       memory[arr[i]] = 'ha';
+    } else {
+
+      return arr[i]
+    }
+    
+  }
+return -1;
 }
 
 if (require.main === module) {
